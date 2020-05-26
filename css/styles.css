@@ -1,0 +1,46 @@
+body {
+	padding: 10px;
+	background-image: url('../img/world_map.jpg');
+	color: #212121;
+}
+
+img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 50%;
+}
+.header {
+	text-align: center;
+}
+
+.container {
+}
+.country-container {
+	display: flex !important;
+	justify-content: space-evenly !important;
+
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.country {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.add {
+	border-radius: 50%;
+	background-color: darkgreen;
+	color: white;
+	font-weight: bold;
+}
+
+.country-list {
+	padding: 5px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	width: 48% !important;
+	background-color: rgba(255, 255, 255, 0.97);
+}
